@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "FieldTechApp",
+    "slug": "fieldtechapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kircureton.fieldtechapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kircureton.fieldtechapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f5a5420-4e6b-42b4-9724-0a3924268732"
+      }
+    },
+    "owner": "kircureton",
+    "updates": {
+      "url": "https://u.expo.dev/0f5a5420-4e6b-42b4-9724-0a3924268732"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
